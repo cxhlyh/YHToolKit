@@ -1,0 +1,22 @@
+{
+  "name": "YHToolKit",
+  "version": "0.1.0",
+  "summary": "A short description of YHToolKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/cxhlyh/YHToolKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "cxhlyh": "572477968@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/cxhlyh/YHToolKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "YHToolKit/Classes/**/*"
+}
