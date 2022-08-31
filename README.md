@@ -22,7 +22,7 @@ pod 'YHToolKit'
 
 ## Author
 
-cxhlyh, 572477968@qq.com
+cxhlyh
 
 ## License
 

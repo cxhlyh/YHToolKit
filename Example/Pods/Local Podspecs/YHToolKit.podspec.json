@@ -1,22 +1,36 @@
 {
   "name": "YHToolKit",
-  "version": "0.1.0",
-  "summary": "A short description of YHToolKit.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "一个集合工具包",
+  "description": "'一个集合工具包，可以只引入自己需要的部分'\nTODO: Add long description of the pod here.",
   "homepage": "https://github.com/cxhlyh/YHToolKit",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
   "authors": {
-    "cxhlyh": "572477968@qq.com"
+    "cxhlyh": "意念联系"
   },
   "source": {
     "git": "https://github.com/cxhlyh/YHToolKit.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "10.0"
+    "ios": "11.0"
   },
-  "source_files": "YHToolKit/Classes/**/*"
+  "subspecs": [
+    {
+      "name": "YHKit",
+      "source_files": "YHToolKit/YHKit/**/*",
+      "dependencies": {
+        "Kingfisher": [
+
+        ]
+      }
+    },
+    {
+      "name": "YHForm",
+      "source_files": "YHToolKit/YHForm/**/*"
+    }
+  ]
 }

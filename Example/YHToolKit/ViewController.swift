@@ -7,12 +7,15 @@
 //
 
 import UIKit
+import YHToolKit
+
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        print("测试打印: ");
+        
     }
 
     override func didReceiveMemoryWarning() {

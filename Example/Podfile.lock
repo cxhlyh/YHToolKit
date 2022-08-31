@@ -1,16 +1,27 @@
 PODS:
-  - YHToolKit (0.1.0)
+  - Kingfisher (6.3.1)
+  - YHToolKit (0.1.1):
+    - YHToolKit/YHForm (= 0.1.1)
+    - YHToolKit/YHKit (= 0.1.1)
+  - YHToolKit/YHForm (0.1.1)
+  - YHToolKit/YHKit (0.1.1):
+    - Kingfisher
 
 DEPENDENCIES:
   - YHToolKit (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - Kingfisher
 
 EXTERNAL SOURCES:
   YHToolKit:
     :path: "../"
 
 SPEC CHECKSUMS:
-  YHToolKit: 931b9405a1f52ca0567fa2e9860b87b596a0c674
+  Kingfisher: 016c8b653a35add51dd34a3aba36b580041acc74
+  YHToolKit: 6a77ebbb8484c17b66fb746801577910ed6d1e1b
 
-PODFILE CHECKSUM: 371e62f08d8b5a3740c3ec2f4b69a285bd663515
+PODFILE CHECKSUM: 488d86745c9d85d570f21f677d362a78c23683c7
 
 COCOAPODS: 1.11.3

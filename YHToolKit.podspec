@@ -33,10 +33,15 @@ TODO: Add long description of the pod here.
 
   s.subspec 'YHKit' do |kit|#宏定义以及工具库
     kit.source_files = 'YHToolKit/YHKit/**/*'
+    #引入网络图片解析库
+    kit.dependency 'Kingfisher'
   end
   
   s.subspec 'YHForm' do |form|#表单组件库 基于UITableView
     form.source_files = 'YHToolKit/YHForm/**/*'
+    form.resource_bundles = {
+       'YHToolKit_YHForm' => ['YHToolKit/YHForm/Resources/*'];
+    }
   end
 
 #  s.source_files = 'YHToolKit/Classes/**/*'
